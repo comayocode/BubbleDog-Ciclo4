@@ -1,0 +1,5 @@
+#map {
+  position: absolute;
+  margin-top: calc(100% / 6.5);
+  right: calc(100% / 8);
+}

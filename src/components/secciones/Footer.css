@@ -1,0 +1,44 @@
+footer {
+  margin-top: 5vw;
+  background-color: #1c2431;
+}
+.row {
+  width: 100%;
+}
+.row h5 {
+  color: #ec994b;
+  font-weight: bold;
+  font-size: 1.7vw;
+  margin-bottom: 3vw;
+}
+#footer-info > .col > p {
+  width: 18vw;
+  color: #f1f1f1;
+  font-size: 1.2vw;
+}
+.nav-item img {
+  margin: 0 1vw 1vw 0;
+}
+.col {
+  text-align: left;
+}
+#footer-info {
+  margin: 0 auto;
+  padding: 4vw 7vw 0.5vw;
+}
+.icon {
+  width: 1.5vw;
+  height: 1.5vw;
+  display: flex;
+}
+#footer-copyright {
+  background-color: #151b29;
+  width: 100%;
+  padding: 0.5vw;
+}
+#footer-copyright h6 {
+  font-size: 1vw;
+  color: #f1f1f1;
+  padding: 0.7vw;
+  margin: 0;
+}

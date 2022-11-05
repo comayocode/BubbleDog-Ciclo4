@@ -1,0 +1,49 @@
+#main-nosotros {
+  background-color: #112b3c;
+  width: 100%;
+  height: 56.25vw;
+  display: flex;
+}
+#main-nosotros h2 {
+  color: #ec994b;
+  font-size: 2.75vw;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 2vw;
+}
+#main-nosotros p {
+  font-size: 1.3vw;
+  color: #f1f1f1;
+  text-align: justify;
+  display: inline-block;
+  width: calc(100% / 1.6);
+  margin-top: calc(100% / 6);
+  position: absolute;
+  right: calc(100% / 6);
+  background-color: #183b52;
+  box-shadow: 12px 12px 20px #091c28;
+  padding: 1.5vw 1.5vw 1.5vw 31vw;
+  border-radius: 4vw 4vw 0 4vw;
+  z-index: 1;
+}
+/* Estilo imagen */
+#groomer {
+  width: 35vw;
+  height: auto;
+  display: inline-block;
+  margin-top: calc(100% / 7);
+  margin-right: 2vw;
+  position: absolute;
+  left: calc(100% / 7.5);
+  filter: drop-shadow(4px 4px 20px #091e2c);
+  z-index: 2;
+}
+/* Ubicacion elementos decorativos nosotros */
+#circle {
+  width: 6vw;
+  height: auto;
+  position: absolute;
+  margin-top: 6vw;
+  left: 0;
+  z-index: 1;
+}

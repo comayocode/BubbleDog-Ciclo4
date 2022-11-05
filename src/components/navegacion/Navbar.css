@@ -1,0 +1,43 @@
+.navbar-brand {
+  margin: 0;
+}
+.navbar-brand img {
+  margin: 0.5vw 0 0 1vw;
+  width: auto;
+  height: 5vw;
+  cursor: pointer;
+}
+.navbar-nav {
+  color: aliceblue;
+  padding: 5px;
+  background-color: #115375;
+  border-radius: 50px;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
+}
+.nav-item {
+  padding: 0 0.5vw 0;
+  display: flex;
+}
+.nav-link,
+.nav-link-active {
+  color: aliceblue;
+  font-size: 1.2vw;
+  text-align: center;
+  margin: 0.2vw 1vw;
+}
+.active {
+  color: #ec994b;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #ec994b;
+  cursor: pointer;
+}
+.collapse img {
+  width: 4vw;
+  height: 4vw;
+}

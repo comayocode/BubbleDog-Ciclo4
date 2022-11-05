@@ -1,0 +1,163 @@
+#main-inicio {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #112b3c;
+  width: 100%;
+  height: 68vw;
+  display: flex;
+  align-items: center;
+}
+.inicio-text h1 {
+  color: #eae3d2;
+  font-weight: 4px;
+}
+.inicio-text h1 b {
+  color: #ec994b;
+}
+.inicio-text p {
+  color: #c9c9c9;
+}
+
+/******************* VISTA PARA PC *****************/
+@media screen and (min-width: 1024px) {
+  /* Estilo texto */
+  .inicio-text {
+    width: 25vw;
+    display: inline-block;
+    position: absolute;
+    top: 12vw;
+    left: 5vw;
+  }
+
+  #main-inicio h1 {
+    font-size: 3vw;
+  }
+
+  #main-inicio p {
+    font-size: 1.2vw;
+  }
+
+  /* Estilo imagen */
+
+  .inicio-img {
+    display: inline-block;
+  }
+
+  .inicio-img img {
+    width: 38vw;
+    height: auto;
+    position: absolute;
+    top: 6vw;
+    right: 25vw;
+    filter: drop-shadow(1px 4px 50px rgba(0, 0, 0, 0.4));
+    z-index: 2;
+  }
+
+  .btn-warning {
+    background-color: #ec994b;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 17px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #0d1921;
+  }
+  .btn-warning:hover {
+    background-color: #c56e1d;
+  }
+
+  /* Ubicacion elementos decorativos inicio */
+
+  #bone1 {
+    width: 11vw;
+    height: auto;
+    position: absolute;
+    top: 3vw;
+    left: 20vw;
+    z-index: 1;
+  }
+
+  #bone2 {
+    width: 11vw;
+    height: auto;
+    position: absolute;
+    right: 12vw;
+    top: 14vw;
+    transform: rotate(130deg);
+    z-index: 1;
+  }
+
+  #vector1 {
+    width: 13vw;
+    height: auto;
+    position: absolute;
+    top: 10vw;
+    right: 0;
+    z-index: 1;
+  }
+
+  #element-inicio {
+    width: 74vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  #bubble1 {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 7vw;
+    left: 38vw;
+    z-index: 1;
+  }
+
+  #bubble2 {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 28vw;
+    right: 20vw;
+    transform: rotate(130deg);
+    z-index: 1;
+  }
+
+  #bubble3 {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 50vw;
+    left: 30vw;
+    transform: rotate(-5deg);
+    z-index: 1;
+  }
+
+  #foot-dog {
+    width: 16vw;
+    height: auto;
+    position: absolute;
+    top: 40vw;
+    right: 3vw;
+    transform: rotate(-5deg);
+    z-index: 1;
+  }
+
+  #circle-decoration {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 44vw;
+    left: 0;
+    z-index: 1;
+  }
+
+  #point-decoration {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 70vw;
+    right: 0;
+  }
+}
