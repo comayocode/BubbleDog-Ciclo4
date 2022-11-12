@@ -101,11 +101,11 @@ const Footer = () => {
                   BubbleDog_10
                 </Link>
               </li>
-              <li className="nav-item mb-2 " as={Link} to="/">
+              <li className="nav-item mb-2 " to="/">
                 <img className="icon" src={call} alt="Logo llamada" />
-                <span className="nav-link p-0" to="/">
+                <Link className="nav-link p-0" to="/">
                   606 850 4020
-                </span>
+                </Link>
               </li>
             </ul>
           </div>

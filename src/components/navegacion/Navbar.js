@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import { Link as NewPage } from "react-router-dom";
 import logo from "../../img/NavBar/Logo.svg";
 import login from "../../img/NavBar/UserLogin.svg";
 
@@ -88,21 +89,13 @@ const navbar = () => {
             </ul>
           </div>
           <div className="collapse navbar-collapse d-flex justify-content-end">
-            <Link
-              id="login"
-              activeClass="active"
-              to="main-inicio"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <NewPage id="login" to="/login">
               <img
                 src={login}
                 className="img-fluid"
                 alt="Logo iniciar sesion"
               />
-            </Link>
+            </NewPage>
           </div>
         </div>
       </nav>
