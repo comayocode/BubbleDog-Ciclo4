@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contactanos.css";
-import Map from "./Map.js";
+import Iframe from "react-iframe";
 import point from "../../img/Contactanos/GridPuntos_2.svg";
 import triangle from "../../img/Contactanos/Polygon 1.svg";
 import casa from "../../img/Contactanos/casa-perro.svg";
@@ -19,7 +19,12 @@ const contactanos = () => {
           </p>
         </div>
         <img src={dogMap} id="dog-map" alt="Perro decorativo encima del mapa" />
-        <Map />
+        <Iframe
+          id="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.816086640261!2d-74.0753437847837!3d40.700047946283945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250e317160d09%3A0x31c61e8f3033637c!2s99%20Caven%20Point%20Rd%2C%20Jersey%20City%2C%20NJ%2007305%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1661660954806!5m2!1ses!2sco"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></Iframe>
         <form>
           <input
             className="form-control"
