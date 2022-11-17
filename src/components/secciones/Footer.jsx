@@ -85,25 +85,25 @@ const Footer = () => {
                   src={email}
                   alt="Logo correo electronico"
                 />
-                <Link className="nav-link p-0 " to="/">
+                <Link className="contact-link" to="/">
                   BubbleDog@gmail.com
                 </Link>
               </li>
               <li className="nav-item mb-2 ">
                 <img className="icon" src={whats} alt="Logo whatsapp" />
-                <Link className="nav-link p-0 " to="/">
+                <Link className="contact-link" to="/">
                   +57 321 355 2654
                 </Link>
               </li>
               <li className="nav-item mb-2 ">
                 <img className="icon" src={ig} alt="Logo instagram" />
-                <Link className="nav-link p-0" to="/">
+                <Link className="contact-link" to="/">
                   BubbleDog_10
                 </Link>
               </li>
               <li className="nav-item mb-2 " to="/">
                 <img className="icon" src={call} alt="Logo llamada" />
-                <Link className="nav-link p-0" to="/">
+                <Link className="contact-link" to="/">
                   606 850 4020
                 </Link>
               </li>

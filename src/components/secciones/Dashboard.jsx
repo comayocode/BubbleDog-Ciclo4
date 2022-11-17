@@ -33,19 +33,19 @@ const Dashboard = () => {
         <div className="menu-bar">
           <ul className={`menu-link${toggleClassCheck}`}>
             <li className="nav-link-bar active">
-              <a href="#">
+              <a href=" ">
                 <img src={clientes} alt="Icono clientes" />
                 <span>Clientes</span>
               </a>
             </li>
             <li className="nav-link-bar">
-              <a href="#">
+              <a href=" ">
                 <img src={servicios} alt="Icono servicios" />
                 <span>Servicios</span>
               </a>
             </li>
             <li className="nav-link-bar">
-              <a href="#">
+              <a href=" ">
                 <img src={movimientos} alt="Icono movimientos" />
                 <span>Movimientos</span>
               </a>

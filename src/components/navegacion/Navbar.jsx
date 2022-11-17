@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { Link as NewPage } from "react-router-dom";
 import logo from "../../img/NavBar/Logo.svg";
 import login from "../../img/NavBar/UserLogin.svg";
+import email from "../../img/Footer/email.svg";
+import whats from "../../img/Footer/whatsapp.svg";
+import ig from "../../img/Footer/instagram.svg";
 
-const navbar = () => {
+const Navbar = () => {
+  const [btnClass, setBtnClass] = useState(false);
+  function open() {
+    setBtnClass((btnClass) => !btnClass);
+  }
+  let classCheck = btnClass ? " open" : "";
   return (
     <div>
       <nav className="navbar navbar-expand-lg  p-0 fixed-top navbar-center">
@@ -22,17 +30,20 @@ const navbar = () => {
             <img src={logo} className="img-fluid" alt="Logo Spa BubbleDog" />
           </Link>
           <button
-            className="navbar-toggler"
+            className={`navbar-toggler${classCheck}`}
+            onClick={open}
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll"
+            data-bs-target="#menu"
+            aria-controls="menu"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="icon-hambur"></span>
+            <span className="icon-hambur"></span>
+            <span className="icon-hambur"></span>
           </button>
-          <div className="collapse navbar-collapse d-flex" id="menu">
+          <div className="collapse navbar-collapse" id="menu">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link
@@ -86,6 +97,11 @@ const navbar = () => {
                   Contáctanos
                 </Link>
               </li>
+              <li className="nav-logo">
+                <img src={email} alt="Logo correo electronico" />
+                <img src={whats} alt="Logo whatsapp" />
+                <img src={ig} alt="Logo Instagram" />
+              </li>
             </ul>
           </div>
           <div className="collapse navbar-collapse d-flex justify-content-end">
@@ -103,4 +119,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;

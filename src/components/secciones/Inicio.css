@@ -19,7 +19,7 @@
 }
 
 /******************* VISTA PARA PC *****************/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   /* Estilo texto */
   .inicio-text {
     width: 25vw;
@@ -43,7 +43,7 @@
     display: inline-block;
   }
 
-  .inicio-img img {
+  .inicio-img .img-fluid {
     width: 38vw;
     height: auto;
     position: absolute;
@@ -159,5 +159,93 @@
     position: absolute;
     top: 70vw;
     right: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Estilo texto */
+  .inicio-text {
+    width: 36vw;
+    display: inline-block;
+    position: absolute;
+    top: 20vw;
+    left: 6vw;
+  }
+
+  #main-inicio h1 {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+
+  #main-inicio p {
+    font-size: 2vw;
+    width: 48vw;
+    margin-top: 2vw;
+  }
+
+  /* Estilo imagen */
+
+  .inicio-img {
+    display: inline-block;
+  }
+
+  .inicio-img .img-fluid {
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top: 16vw;
+    right: 12vw;
+    filter: drop-shadow(1px 4px 50px rgba(0, 0, 0, 0.4));
+    z-index: 2;
+  }
+  #blob {
+    position: absolute;
+    top: 8vw;
+    right: 2vw;
+    width: 50vw;
+  }
+  .inicio {
+    background-color: #ec994b;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #0d1921;
+    margin-top: 2vw;
+  }
+  .btn-warning:hover {
+    background-color: #c56e1d;
+  }
+
+  /* Ubicacion elementos decorativos inicio */
+
+  #bone1,
+  #bone2,
+  #vector1,
+  #element-inicio,
+  #bubble1,
+  #bubble2,
+  #bubble3,
+  #foot-dog {
+    display: none;
+  }
+
+  #circle-decoration {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 55vw;
+    right: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+  }
+
+  #point-decoration {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    top: 65vw;
+    left: 0;
+    transform: rotate(180deg);
   }
 }

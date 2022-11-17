@@ -9,6 +9,7 @@ import foot from "../../img/Hero/HuellaDecorativa.png";
 import circle from "../../img/Hero/semi circulo.png";
 import point from "../../img/Hero/puntos.svg";
 import hero from "../../img/Hero/HeroIMG.png";
+import blob from "../../img/Hero/blob.svg";
 
 const inicio = () => {
   return (
@@ -85,13 +86,15 @@ const inicio = () => {
             <p>
               Tu peludito se merece los mejores mimos y el cuidado de la más
               alta calidad. Recuerda...
+              <br />
               <b>¡Un peludito guapo, es un peludito felíz!</b>
             </p>
-            <button type="button" className="btn btn-warning">
+            <button type="button" className="btn btn-warning inicio">
               ¡Agenda Ahora!
             </button>
           </div>
           <div className="inicio-img">
+            <img src={blob} alt="Vector decorativo" id="blob" />
             <img
               src={hero}
               className="img-fluid "

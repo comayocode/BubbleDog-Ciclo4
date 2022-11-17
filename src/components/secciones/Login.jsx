@@ -62,7 +62,7 @@ const Login = () => {
             />
             <button
               type="submit"
-              className="btn btn-warning"
+              className="btn btn-warning login"
               onClick={iniciarSesion}
             >
               Ingresar
