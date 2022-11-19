@@ -142,7 +142,9 @@ const Dashboard = () => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id="title"></h5>
+              <h5 className="modal-title" id="title">
+                xx
+              </h5>
             </div>
             <div className="modal-body">
               <p>Cédula</p>
