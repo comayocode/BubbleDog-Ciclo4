@@ -2,6 +2,7 @@ import React from "react";
 import "./Nosotros.css";
 import groomer from "../../img/Nosotros/img-sobre-nosotros.png";
 import circle from "../../img/Nosotros/Ellipse.png";
+import circleOrange from "../../img/Nosotros/EllipseOrange.svg";
 
 const nosotros = () => {
   return (
@@ -27,6 +28,12 @@ const nosotros = () => {
         <img
           src={circle}
           id="circle"
+          className="img-fluid"
+          alt="Circulo decorativo"
+        />
+        <img
+          src={circleOrange}
+          id="circleOrange"
           className="img-fluid"
           alt="Circulo decorativo"
         />

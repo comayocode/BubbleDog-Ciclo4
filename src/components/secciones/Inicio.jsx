@@ -10,6 +10,7 @@ import circle from "../../img/Hero/semi circulo.png";
 import point from "../../img/Hero/puntos.svg";
 import hero from "../../img/Hero/HeroIMG.png";
 import blob from "../../img/Hero/blob.svg";
+import vectorMovil from "../../img/Hero/VectorHeroMovil.svg";
 
 const inicio = () => {
   return (
@@ -95,6 +96,7 @@ const inicio = () => {
           </div>
           <div className="inicio-img">
             <img src={blob} alt="Vector decorativo" id="blob" />
+            <img src={vectorMovil} alt="Vector decorativo" id="vectorMovil" />
             <img
               src={hero}
               className="img-fluid "

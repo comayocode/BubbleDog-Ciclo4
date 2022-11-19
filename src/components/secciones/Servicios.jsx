@@ -13,7 +13,7 @@ const servicios = () => {
       return <Carrusel3 />;
     } else if ((pantalla > 767) & (pantalla < 992)) {
       return <Carrusel2 />;
-    } else if (pantalla < 424) {
+    } else if (pantalla < 768) {
       return <Carrusel1 />;
     }
   }

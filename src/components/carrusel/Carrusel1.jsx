@@ -31,6 +31,30 @@ const Carrusel1 = () => {
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -56,6 +80,10 @@ const Carrusel1 = () => {
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="cards-wrapper">
               <div className="card">
                 <img
                   src={cepillado}
@@ -76,6 +104,10 @@ const Carrusel1 = () => {
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="cards-wrapper">
               <div className="card">
                 <img
                   src={deslanado}
@@ -122,6 +154,10 @@ const Carrusel1 = () => {
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="cards-wrapper">
               <div className="card">
                 <img
                   src={corte}
@@ -142,6 +178,10 @@ const Carrusel1 = () => {
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="cards-wrapper">
               <div className="card">
                 <img
                   src={uñas}

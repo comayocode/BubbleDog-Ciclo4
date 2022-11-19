@@ -4,6 +4,7 @@ import email from "../../img/Footer/email.svg";
 import whats from "../../img/Footer/whatsapp.svg";
 import ig from "../../img/Footer/instagram.svg";
 import call from "../../img/Footer/llamada.svg";
+import direction from "../../img/Footer/direction.svg";
 import "./Footer.css";
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
     <div>
       <footer>
         <div className="row" id="footer-info">
-          <div className="col mb-4">
+          <div className="col mb-4" id="description">
             <h5>Spa BubbleDog</h5>
             <p>
               Consentimos a tu peludo y te lo entregamos en su mejor versión.
@@ -105,6 +106,12 @@ const Footer = () => {
                 <img className="icon" src={call} alt="Logo llamada" />
                 <Link className="contact-link" to="/">
                   606 850 4020
+                </Link>
+              </li>
+              <li className="nav-item mb-2 " id="direction" to="/">
+                <img className="icon" src={direction} alt="Logo dirección" />
+                <Link className="contact-link" to="/">
+                  99 Caven Point Rd Jersey City
                 </Link>
               </li>
             </ul>

@@ -1,3 +1,4 @@
+/******************* VISTA PARA PC *****************/
 @media screen and (min-width: 992px) {
   #main-nosotros {
     background-color: #112b3c;
@@ -40,6 +41,9 @@
     z-index: 2;
   }
   /* Ubicacion elementos decorativos nosotros */
+  #circleOrange {
+    display: none;
+  }
   #circle {
     width: 6vw;
     height: auto;
@@ -52,6 +56,7 @@
     display: none;
   }
 }
+/******************* VISTA PARA TABLET *****************/
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #main-nosotros {
     background-color: #112b3c;
@@ -93,6 +98,9 @@
     z-index: 2;
   }
   /* Ubicacion elementos decorativos nosotros */
+  #circleOrange {
+    display: none;
+  }
   #circle {
     width: 8vw;
     height: auto;
@@ -100,5 +108,61 @@
     margin-top: 45vw;
     left: -0.5vw;
     z-index: 1;
+  }
+}
+/******************* VISTA PARA MOVIL *****************/
+@media screen and (max-width: 767px) {
+  #main-nosotros {
+    background-color: #112b3c;
+    width: 100%;
+    height: 190vw;
+    display: flex;
+  }
+  #main-nosotros h2 {
+    color: #ec994b;
+    font-size: 7vw;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 14vw;
+  }
+  #main-nosotros p {
+    font-size: 3vw;
+    color: #f1f1f1;
+    text-align: justify;
+    display: inline-block;
+    width: 77vw;
+    margin-top: calc(100% / 1.5);
+    position: absolute;
+    right: calc(100% / 10);
+    background-color: #183b52;
+    box-shadow: 12px 12px 20px #091c28;
+    padding: 24vw 5.5vw 4.5vw;
+    border-radius: 10vw 10vw 0 10vw;
+    z-index: 1;
+  }
+  /* Estilo imagen */
+  #groomer {
+    width: calc(100% / 1.8);
+    height: auto;
+    display: inline-block;
+    margin-top: calc(100% / 3);
+    position: absolute;
+    left: calc(100% / 4);
+    filter: drop-shadow(4px 4px 20px #091e2c);
+    z-index: 2;
+  }
+  /* Ubicacion elementos decorativos nosotros */
+  #circle {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    margin-top: 45vw;
+    left: -0.5vw;
+    z-index: 1;
+  }
+  #circleOrange {
+    width: 6vw;
+    position: relative;
+    top: 80vw;
   }
 }
