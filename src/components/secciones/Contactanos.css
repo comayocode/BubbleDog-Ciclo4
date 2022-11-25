@@ -12,7 +12,7 @@
     margin-top: 13vw;
   }
 
-  form {
+  #formContactanos {
     position: absolute;
     margin-top: calc(100% / 12);
     left: calc(100% / 8);
@@ -89,7 +89,7 @@
     margin-top: 20vw;
   }
 
-  form {
+  #formContactanos {
     position: absolute;
     margin-top: 4vw;
     left: calc(100% / 2.8);
@@ -176,7 +176,7 @@
     margin-top: 26vw;
   }
 
-  form {
+  #formContactanos {
     position: absolute;
     margin-top: -45vw;
     left: calc(100% / 5);
