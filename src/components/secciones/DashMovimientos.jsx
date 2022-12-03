@@ -19,7 +19,7 @@ const DashMovimientos = () => {
     }
   }
   //Conección a la BD
-  const URL_API = "http://127.0.0.1:4000/APIREST";
+  const URL_API = "https://bubbledog-backend-c4-production.up.railway.app/APIREST";
   const direccionGet = "listar-movimiento";
   const direccionPost = "crear-movimiento";
   const direccionPut = "actualizar-movimiento";

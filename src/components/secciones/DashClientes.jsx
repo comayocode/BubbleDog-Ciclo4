@@ -19,7 +19,7 @@ const DashClientes = () => {
     }
   }
   //Conección a la BD
-  const URL_API = "http://127.0.0.1:4000/APIREST";
+  const URL_API = "https://bubbledog-backend-c4-production.up.railway.app/APIREST";
   const direccionGet = "listar-cliente";
   const direccionPost = "crear-clinte";
   const direccionPut = "actualizar-cliente";
