@@ -49,8 +49,9 @@ const Dashboard = () => {
             <li
               className="nav-link-bar"
               onClick={() => {
-                setVistaServicios("ocultar");
                 setVistaClientes("");
+                setVistaServicios("ocultar");
+                setVistaMovimientos("ocultar")
               }}
             >
               <img src={clientes} alt="Icono clientes" />
